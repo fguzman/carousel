@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		940F988F1B07CC2800C89700 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940F988E1B07CC2800C89700 /* ForgotPasswordViewController.swift */; };
+		940F98911B07CC4100C89700 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940F98901B07CC4100C89700 /* SignInViewController.swift */; };
+		940F98931B07CC5900C89700 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940F98921B07CC5900C89700 /* CreateAccountViewController.swift */; };
+		940F98961B07D37D00C89700 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940F98951B07D37D00C89700 /* WelcomeViewController.swift */; };
+		940F98981B07DE7200C89700 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 940F98971B07DE7200C89700 /* Main.storyboard */; };
+		940F989A1B097EE700C89700 /* ImageTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940F98991B097EE700C89700 /* ImageTimelineViewController.swift */; };
+		940F989C1B09822000C89700 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940F989B1B09822000C89700 /* ConversationsViewController.swift */; };
+		940F989E1B0984A800C89700 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940F989D1B0984A800C89700 /* SettingsViewController.swift */; };
 		94200FAC1B024BC600B57BF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94200FAB1B024BC600B57BF5 /* AppDelegate.swift */; };
 		94200FAE1B024BC600B57BF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94200FAD1B024BC600B57BF5 /* ViewController.swift */; };
-		94200FB11B024BC600B57BF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94200FAF1B024BC600B57BF5 /* Main.storyboard */; };
 		94200FB31B024BC600B57BF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94200FB21B024BC600B57BF5 /* Images.xcassets */; };
 		94200FB61B024BC600B57BF5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94200FB41B024BC600B57BF5 /* LaunchScreen.xib */; };
 		94200FC21B024BC600B57BF5 /* carouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94200FC11B024BC600B57BF5 /* carouselTests.swift */; };
+		94200FCC1B024CFB00B57BF5 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94200FCB1B024CFB00B57BF5 /* Common.swift */; };
+		94200FCE1B024D6300B57BF5 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94200FCD1B024D6300B57BF5 /* IntroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +35,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		940F988E1B07CC2800C89700 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		940F98901B07CC4100C89700 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		940F98921B07CC5900C89700 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		940F98951B07D37D00C89700 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		940F98971B07DE7200C89700 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		940F98991B097EE700C89700 /* ImageTimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTimelineViewController.swift; sourceTree = "<group>"; };
+		940F989B1B09822000C89700 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		940F989D1B0984A800C89700 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		94200FA61B024BC600B57BF5 /* carousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94200FAA1B024BC600B57BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94200FAB1B024BC600B57BF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94200FAD1B024BC600B57BF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		94200FB01B024BC600B57BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94200FB21B024BC600B57BF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		94200FB51B024BC600B57BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		94200FBB1B024BC600B57BF5 /* carouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carouselTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94200FC01B024BC600B57BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94200FC11B024BC600B57BF5 /* carouselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carouselTests.swift; sourceTree = "<group>"; };
+		94200FCB1B024CFB00B57BF5 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		94200FCD1B024D6300B57BF5 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		940F98941B07CC6200C89700 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				940F98901B07CC4100C89700 /* SignInViewController.swift */,
+				940F989D1B0984A800C89700 /* SettingsViewController.swift */,
+				940F989B1B09822000C89700 /* ConversationsViewController.swift */,
+				940F98991B097EE700C89700 /* ImageTimelineViewController.swift */,
+				940F988E1B07CC2800C89700 /* ForgotPasswordViewController.swift */,
+				940F98921B07CC5900C89700 /* CreateAccountViewController.swift */,
+				940F98951B07D37D00C89700 /* WelcomeViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		94200F9D1B024BC600B57BF5 = {
 			isa = PBXGroup;
 			children = (
@@ -77,11 +109,14 @@
 		94200FA81B024BC600B57BF5 /* carousel */ = {
 			isa = PBXGroup;
 			children = (
+				940F98941B07CC6200C89700 /* View Controllers */,
 				94200FAB1B024BC600B57BF5 /* AppDelegate.swift */,
 				94200FAD1B024BC600B57BF5 /* ViewController.swift */,
-				94200FAF1B024BC600B57BF5 /* Main.storyboard */,
+				94200FCD1B024D6300B57BF5 /* IntroViewController.swift */,
+				940F98971B07DE7200C89700 /* Main.storyboard */,
 				94200FB21B024BC600B57BF5 /* Images.xcassets */,
 				94200FB41B024BC600B57BF5 /* LaunchScreen.xib */,
+				94200FCB1B024CFB00B57BF5 /* Common.swift */,
 				94200FA91B024BC600B57BF5 /* Supporting Files */,
 			);
 			path = carousel;
@@ -192,7 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94200FB11B024BC600B57BF5 /* Main.storyboard in Resources */,
+				940F98981B07DE7200C89700 /* Main.storyboard in Resources */,
 				94200FB61B024BC600B57BF5 /* LaunchScreen.xib in Resources */,
 				94200FB31B024BC600B57BF5 /* Images.xcassets in Resources */,
 			);
@@ -212,8 +247,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				940F989A1B097EE700C89700 /* ImageTimelineViewController.swift in Sources */,
+				940F989C1B09822000C89700 /* ConversationsViewController.swift in Sources */,
+				940F989E1B0984A800C89700 /* SettingsViewController.swift in Sources */,
+				940F98931B07CC5900C89700 /* CreateAccountViewController.swift in Sources */,
+				940F98961B07D37D00C89700 /* WelcomeViewController.swift in Sources */,
 				94200FAE1B024BC600B57BF5 /* ViewController.swift in Sources */,
+				940F988F1B07CC2800C89700 /* ForgotPasswordViewController.swift in Sources */,
+				940F98911B07CC4100C89700 /* SignInViewController.swift in Sources */,
+				94200FCC1B024CFB00B57BF5 /* Common.swift in Sources */,
 				94200FAC1B024BC600B57BF5 /* AppDelegate.swift in Sources */,
+				94200FCE1B024D6300B57BF5 /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +280,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		94200FAF1B024BC600B57BF5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				94200FB01B024BC600B57BF5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		94200FB41B024BC600B57BF5 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -409,6 +445,7 @@
 				94200FC71B024BC600B57BF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94200FC81B024BC600B57BF5 /* Build configuration list for PBXNativeTarget "carouselTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +454,7 @@
 				94200FCA1B024BC600B57BF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
