@@ -3,7 +3,7 @@
 - Hours: 8
 - Finished: Required elements
 
-![Tabber|250](http://i.imgur.com/hubKLQM.gif?1)
+![Tabber|250](http://i.imgur.com/oBHHvFD.gifv)
 
 #### Requirements
 * [x]Static photo tiles on the initial screen
