@@ -3,22 +3,26 @@
 - Hours: 8
 - Finished: Required elements
 
-![Tabber|250](http://i.imgur.com/oBHHvFD.gif)
+![Tabber|250](http://i.imgur.com/0lN90Lt.gif)
 
 #### Requirements
-* [x]Static photo tiles on the initial screen
-Sign In
-* [x]Tapping on email/password reveals the keyboard and shifts the scrollview and Sign In button up.
-* [x]User sees an error alert when no email is present or no password is present.
-* [x]User sees a loading screen upon tapping the Sign In button.
-* [x]User sees an error alert when entering the wrong email/password combination.
-* [x]User is taken to the tutorial screens upon entering the correct email/password combination.
-Tutorial Screens
-* [x]User can page between the screens
-Image Timeline
-* [x]Display a scrollable view of images.
-* [x]User can tap on the conversations button to see the conversations screen (push).
-User can tap on the profile image to see the settings view (modal from below).
-Settings
-* [x]User can dismiss the settings screen.
-* [x]User can log out
+On dragging the message left...
+* [x] Initially, the revealed background color should be gray.
+* [x] As the reschedule icon is revealed, it should start semi-transparent and become fully opaque. If released at this point, the message should return to its initial position.
+* [x] After 60 pts, the later icon should start moving with the translation and the background should change to yellow.
+Upon release, the message should continue to reveal the yellow background. When the animation it complete, it should show the reschedule options.
+* [x] After 260 pts, the icon should change to the list icon and the background color should change to brown.
+Upon release, the message should continue to reveal the brown background. When the animation it complete, it should show the list options.
+User can tap to dismissing the reschedule or list options. After the reschedule or list options are dismissed, you should see the message finish the hide animation.
+
+On dragging the message right...
+* [x] Initially, the revealed background color should be gray.
+* [x] As the archive icon is revealed, it should start semi-transparent and become fully opaque. If released at this point, the message should return to its initial position.
+* [x] After 60 pts, the archive icon should start moving with the translation and the background should change to green.
+* [x] Upon release, the message should continue to reveal the green background. When the animation it complete, it should hide the message.
+* [x] After 260 pts, the icon should change to the delete icon and the background color should change to red.
+Upon release, the message should continue to reveal the red background. When the animation it complete, it should hide the message.
+* [x]Optional: Panning from the edge should reveal the menu
+* [x] Optional: If the menu is being revealed when the user lifts their finger, it should continue revealing.
+* [ ] Optional: If the menu is being hidden when the user lifts their finger, it should continue hiding.
+* [ ] Optional: Tapping on compose should animate to reveal the compose view.
