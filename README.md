@@ -22,7 +22,7 @@ On dragging the message right...
 * [x] Upon release, the message should continue to reveal the green background. When the animation it complete, it should hide the message.
 * [x] After 260 pts, the icon should change to the delete icon and the background color should change to red.
 Upon release, the message should continue to reveal the red background. When the animation it complete, it should hide the message.
-* [x]Optional: Panning from the edge should reveal the menu
+* [x] Optional: Panning from the edge should reveal the menu
 * [x] Optional: If the menu is being revealed when the user lifts their finger, it should continue revealing.
 * [ ] Optional: If the menu is being hidden when the user lifts their finger, it should continue hiding.
 * [ ] Optional: Tapping on compose should animate to reveal the compose view.
